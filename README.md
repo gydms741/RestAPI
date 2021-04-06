@@ -5,6 +5,11 @@
 - REST는 네트워크 상에서 Client와 Server사이의 통신 방식 중 하나이다.
 - REST는 기본적으로 웹의 기존 기술과 HTTP 프로토콜을 그대로 활용하기 때문에 웹의 장점을 최대한 활용할 수 있는 아키텍처 스타일이다.
 
+## REST 구성
+- 자원(Resource) - URI
+- 행위(Verb) - HTTP METHOD
+- 표현(Representations)
+
 ### 1. Server-Client(서버-클라이언트 구조)
 - 자원이 있는 쪽이 Server, 자원을 요청하는 쪽이 Client가 된다.
 - REST Server : API를 제공하고 비즈니스 로직 처리 및 저장을 책임진다.
@@ -48,3 +53,6 @@
 - 데이터 포맷으로는 브라우저 간 호환성이 좋은 JSON을 사용한다.
 - 구축과 확장이 간단하지만, 크고 복잡하게 만들 수도 있다.
 
+## REST API 디자인 가이드
+- URI는 정보의 자원을 표현해야 한다.
+- 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
