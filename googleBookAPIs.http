@@ -1,0 +1,9 @@
+GET https://www.googleapis.com/books/v1/volumes?q=inauthor=정세랑 HTTP/1.1
+
+###
+
+GET https://www.googleapis.com/books/v1/volumes?q=intitle=함께 자라기 HTTP/1.1
+
+###
+
+GET https://www.googleapis.com/books/v1/volumes?q=inauthor=김초엽 HTTP/1.1
