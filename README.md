@@ -63,5 +63,3 @@
 ## REST API 디자인 가이드
 - URI는 정보의 자원을 표현해야 한다.
 - 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
-- 
-
